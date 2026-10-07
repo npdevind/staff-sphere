@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO Meta Tags -->
+    <title>StaffSphere - Employee Management System</title>
+    <meta name="description" content="StaffSphere is a modern, beginner-friendly Employee Management System built with React, Node.js, Express, and PostgreSQL." />
+    <meta name="keywords" content="employee management, HR system, staff management" />
+    <meta name="author" content="StaffSphere" />
+    
+    <!-- Open Graph (for social sharing previews) -->
+    <meta property="og:title" content="StaffSphere - Employee Management System" />
+    <meta property="og:description" content="A full-stack employee management system built with React and Node.js" />
+    <meta property="og:type" content="website" />
+  </head>
+  <body>
+    <!--
+      This is where React mounts. It's a single empty <div>.
+      React will render your entire app inside this div.
+      
+      PHP Equivalent:
+        In PHP, each page is a separate .php file that generates HTML directly.
+        In React (Single Page Application = SPA), there's only ONE HTML file.
+        React uses JavaScript to dynamically update the page content without
+        full page reloads. The browser only downloads the HTML once.
+        
+        This is why it's called "client-side rendering" (CSR) - the HTML is
+        built in the browser (client), not on the server like PHP.
+    -->
+    <div id="root"></div>
+    
+    <!-- 
+      Vite injects our main.jsx here as a module script
+      This is the entry point for our React application
+    -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
